@@ -8,13 +8,13 @@
   <body>
     <div class="header">
       <img src="./eisenhower-matrix.jpg">
-      <a class="more-inf0" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
+    <div class="main">
+      <p id="add-item">
         <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="task" type="text">
+        <div class="main__row-wrapper">
+          <input id="line"class="item" type="text">
           <button>Add</button>
         </div>
       </p>
@@ -22,8 +22,8 @@
       <ul id="incomplete-tasks">
         <li>
           <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+          <label class="item">Pay Bills</label>
+          <input type="text" class="item">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg">
@@ -31,8 +31,8 @@
         </li>
         <li class="edit-mode">
           <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="go shopping" class="task">
+          <label class="item">Go Shopping</label>
+          <input type="text" value="go shopping" class="item">
           <button class="edit">Save</button>
           <button class="delete">
             <img src="./remove.svg">
@@ -43,8 +43,8 @@
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <label class="item">See the Doctor</label>
+          <input type="text" class="item">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg">
